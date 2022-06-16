@@ -1,4 +1,4 @@
-import logo from "../images/Capture.PNG"
+import logo from "../images/logo.PNG"
 import fb from "../images/facebook.png"
 import ig from "../images/instagram.png"
 import tw from "../images/twitter.png"
