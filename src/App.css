@@ -139,6 +139,7 @@ a{
   width: 150px;
   margin: 0 auto;
   
+  
 }
 .line2{
   height:7px;
@@ -406,6 +407,45 @@ a{
   background-size: cover;
 
 }
+body{
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width:400px) {
+  /* For mobile phones: */
+  .Footer,.linkandnotice{
+    display: flex;
+    flex-direction: column;
+  }
+  iframe{
+    width: 80%;
+    height: 50%;
+  }
+  .line,.line2{
+    width: 100%;
+  }
+  .map,.speciality,.links{
+    width: 100%;
+  }
+  .Quicklinks{
+    width: 100%;
+  }
+  .newsletter{
+    width: 100%;
+  }
+  #form >input{
+    width: 100%;
+    
+  }
+  #form > textarea{
+    width: 100%;
+  
+  }
+  
+  
+  
+}
+
 
 
 
