@@ -275,7 +275,7 @@ a{
 
 }
 .Quicklinks{
-  width:30%;
+  
   font-family: 'Open Sans', sans-serif;
   padding: 20px;
   
@@ -354,7 +354,7 @@ a{
   background-color: #041651;
   position: relative;
   color: white;
-  height: 300px;
+  min-height: 300px;
   margin: 100px;
   border-radius: 10px;
  
@@ -375,18 +375,17 @@ a{
   
 
 }
-.extra-width-contactus{
-  width: 100%;
 
-}
 .extra-width-contactus p{
   
   font-size:30px;
 }
 .extra-padding-contactus{
   float:right;
-  height: 100px;
-  margin-right: 100px;
+  min-height: 100px;
+  margin-left: 30%;
+  margin-right: 20px;
+ 
 }
 .extra-padding-contactus p{
   font-size:30px;
@@ -397,7 +396,7 @@ a{
 .form-2 >input{
   background-color: #0C416F;
   border: none;
-  width:200px;
+  
   margin: 5px 10px;
   padding: 10px;
   border-radius: 20px;
@@ -409,7 +408,7 @@ a{
 }
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:700px) {
   /* For mobile phones: */
   .Footer,.linkandnotice{
     display: flex;
@@ -442,15 +441,20 @@ a{
   .logo{
     width: 100%;
   }
+  .contact-2{
+    position: static;
+    width: 100%;
+   
+
+    
+  }
+  .extra-padding-contactus{
+    margin: 0%;
+  }
   
   
   
 }
-
-
-
-
-
 
 
 

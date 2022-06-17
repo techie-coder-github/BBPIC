@@ -21,6 +21,7 @@ function Contactus() {
     }
   return (
       <div className="contactus">
+          
           <div className="contact-1">
               
               <div className="extra-padding-contactus">
@@ -36,7 +37,7 @@ function Contactus() {
                 </div>
               <div className="contact-2">
                   
-                  <div className="Quicklinks extra-width-contactus">
+                <div className="Quicklinks extra-width-contactus">
                 <p>Our Address</p>
                 <div className="address">
                 <img src={home} alt="address"/>
@@ -60,10 +61,14 @@ function Contactus() {
                 </div>
 
 
-              </div>
+                </div>
           </div>
-          
-      </div>
+
+
+            
+              
+
+        </div>
    
   );
 }

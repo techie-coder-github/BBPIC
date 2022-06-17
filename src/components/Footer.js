@@ -69,7 +69,7 @@ function Footer(){
             </div>
         
         </div>
-        <footer className="footer_text">© Copyright 2022 BBPIC, Deoria. All Rights Reserved | Developed by @VishalSingh</footer>
+        <footer className="footer_text">© Copyright 2022 BBPIC, Deoria. All Rights Reserved |Developed by @VishalSingh </footer>
         </div>
       
     )
