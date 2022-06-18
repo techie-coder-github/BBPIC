@@ -23,6 +23,33 @@ function Contactus() {
       <div className="contactus">
           
           <div className="contact-1">
+            <div className="contact-2">
+                  
+                  <div className="Quicklinks">
+                    <p>Our Address</p>
+                    <div className="address">
+                    <img src={home} alt="address"/>
+                    <span>BABA BACHCHAN PRASAD INTERMEDIATE COLLEGE,Badhara Bhikhampur Road Deoria (U.P.) , India</span>
+    
+                    </div>
+                    <div className="address">
+                    <img src={phone} alt="phone"/>
+                    <span className="extra-margin">+91 9125557857 ,+91 7897839212</span>
+    
+                    </div>
+                    <div className="address">
+                    <img src={mail} alt="mail"/>
+                    <span className="extra-margin"><a href="mailto:enquire.bbpic@gmail.com">enquire.bbpic@gmail.com</a></span>
+    
+                    </div>
+                    
+                    
+                    
+                        
+                  </div>
+    
+    
+              </div>
               
               <div className="extra-padding-contactus">
                <p>Get In Touch</p>
@@ -34,35 +61,10 @@ function Contactus() {
                     
                     <button type='submit' className="btn-enq" >SUBMIT</button>
                 </form>
-                </div>
-              <div className="contact-2">
-                  
-                <div className="Quicklinks extra-width-contactus">
-                <p>Our Address</p>
-                <div className="address">
-                <img src={home} alt="address"/>
-                <span>BABA BACHCHAN PRASAD INTERMEDIATE COLLEGE,Badhara Bhikhampur Road Deoria (U.P.) , India</span>
-
-                </div>
-                <div className="address">
-                <img src={phone} alt="phone"/>
-                <span className="extra-margin">+91 9125557857 ,+91 7897839212</span>
-
-                </div>
-                <div className="address">
-                <img src={mail} alt="mail"/>
-                <span className="extra-margin"><a href="mailto:enquire.bbpic@gmail.com">enquire.bbpic@gmail.com</a></span>
-
-                </div>
-                
-                
-                
-                    
-                </div>
-
-
-                </div>
+              </div>
+              
           </div>
+          
 
 
             
